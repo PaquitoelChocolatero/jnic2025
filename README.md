@@ -1,1 +1,1 @@
-# JNIC 2024 – IX Jornadas Nacionales de Investigación en Ciberseguridad
+# JNIC 2025 – X Jornadas Nacionales de Investigación en Ciberseguridad
