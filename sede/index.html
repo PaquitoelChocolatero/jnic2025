@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Sede – JNIC 2025</title>
+	<title>Sede - JNIC 2025</title>
 	<meta name="robots" content="max-image-preview:large">
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 
 
 	<link rel="stylesheet" id="astra-theme-css-css"
-		href="https://jnic2024.github.io/wp-content/themes/astra/assets/css/minified/main.min.css" media="all">
+		href="https://paquitoelchocolatero.github.io/jnic2025/wp-content/themes/astra/assets/css/minified/main.min.css"
+		media="all">
 	<style id="astra-theme-css-inline-css">
 		:root {
 			--ast-container-default-xlg-padding: 3em;
@@ -890,6 +891,10 @@
 			}
 		}
 
+		.ast-theme-transparent-header [data-section="section-header-mobile-trigger"] .ast-button-wrap .ast-mobile-menu-trigger-minimal {
+			background: transparent;
+		}
+
 		.entry-content li>p {
 			margin-bottom: 0;
 		}
@@ -1487,6 +1492,211 @@
 			body.archive .ast-archive-description {
 				text-align: left;
 			}
+		}
+
+		.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo .astra-logo-svg {
+			width: 150px;
+		}
+
+		.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo img {
+			max-width: 150px;
+		}
+
+		@media (max-width:921px) {
+			.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo .astra-logo-svg {
+				width: 120px;
+			}
+
+			.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo img {
+				max-width: 120px;
+			}
+		}
+
+		@media (max-width:543px) {
+			.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo .astra-logo-svg {
+				width: 100px;
+			}
+
+			.ast-theme-transparent-header #masthead .site-logo-img .transparent-custom-logo img {
+				max-width: 100px;
+			}
+		}
+
+		@media (min-width:921px) {
+			.ast-theme-transparent-header #masthead {
+				position: absolute;
+				left: 0;
+				right: 0;
+			}
+
+			.ast-theme-transparent-header .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar {
+				background: none;
+			}
+
+			body.elementor-editor-active.ast-theme-transparent-header #masthead,
+			.fl-builder-edit .ast-theme-transparent-header #masthead,
+			body.vc_editor.ast-theme-transparent-header #masthead,
+			body.brz-ed.ast-theme-transparent-header #masthead {
+				z-index: 0;
+			}
+
+			.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .custom-mobile-logo-link {
+				display: none;
+			}
+
+			.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo {
+				display: inline-block;
+			}
+
+			.ast-theme-transparent-header .ast-above-header,
+			.ast-theme-transparent-header .ast-above-header.ast-above-header-bar {
+				background-image: none;
+				background-color: transparent;
+			}
+
+			.ast-theme-transparent-header .ast-below-header {
+				background-image: none;
+				background-color: transparent;
+			}
+		}
+
+		.ast-theme-transparent-header .main-header-bar,
+		.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-menu,
+		.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-bar,
+		.ast-theme-transparent-header.ast-header-break-point .ast-mobile-header-wrap .main-header-bar {
+			background-color: rgba(255, 255, 255, 0.11);
+		}
+
+		.ast-theme-transparent-header .main-header-bar .ast-search-menu-icon form {
+			background-color: rgba(255, 255, 255, 0.11);
+		}
+
+		.ast-theme-transparent-header .ast-above-header,
+		.ast-theme-transparent-header .ast-above-header.ast-above-header-bar,
+		.ast-theme-transparent-header .ast-below-header,
+		.ast-header-break-point.ast-theme-transparent-header .ast-above-header,
+		.ast-header-break-point.ast-theme-transparent-header .ast-below-header {
+			background-color: rgba(255, 255, 255, 0.11);
+		}
+
+		@media (max-width:921px) {
+			.ast-theme-transparent-header #masthead {
+				position: absolute;
+				left: 0;
+				right: 0;
+			}
+
+			.ast-theme-transparent-header .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar {
+				background: none;
+			}
+
+			body.elementor-editor-active.ast-theme-transparent-header #masthead,
+			.fl-builder-edit .ast-theme-transparent-header #masthead,
+			body.vc_editor.ast-theme-transparent-header #masthead,
+			body.brz-ed.ast-theme-transparent-header #masthead {
+				z-index: 0;
+			}
+
+			.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .custom-mobile-logo-link {
+				display: none;
+			}
+
+			.ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .transparent-custom-logo {
+				display: inline-block;
+			}
+
+			.ast-theme-transparent-header .ast-above-header,
+			.ast-theme-transparent-header .ast-above-header.ast-above-header-bar {
+				background-image: none;
+				background-color: transparent;
+			}
+
+			.ast-theme-transparent-header .ast-below-header {
+				background-image: none;
+				background-color: transparent;
+			}
+		}
+
+		@media (max-width:921px) {
+
+			.ast-theme-transparent-header .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-menu,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .ast-mobile-header-wrap .main-header-bar {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+
+			.ast-theme-transparent-header .main-header-bar .ast-search-menu-icon form {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+
+			.ast-theme-transparent-header .ast-above-header,
+			.ast-theme-transparent-header .ast-above-header.ast-above-header-bar,
+			.ast-theme-transparent-header .ast-below-header,
+			.ast-header-break-point.ast-theme-transparent-header .ast-above-header,
+			.ast-header-break-point.ast-theme-transparent-header .ast-below-header {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .menu-link,
+			.ast-theme-transparent-header [CLASS*="ast-builder-menu-"] .main-header-menu .menu-item>.menu-link,
+			.ast-theme-transparent-header .ast-masthead-custom-menu-items,
+			.ast-theme-transparent-header .ast-masthead-custom-menu-items a,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .menu-item>.ast-menu-toggle,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .menu-item>.ast-menu-toggle,
+			.ast-theme-transparent-header .main-header-menu .menu-link {
+				color: var(--ast-global-color-2);
+			}
+
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .menu-item:hover>.menu-link,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .menu-item:hover>.ast-menu-toggle,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .ast-masthead-custom-menu-items a:hover,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .focus>.menu-link,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .focus>.ast-menu-toggle,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .current-menu-item>.menu-link,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .current-menu-ancestor>.menu-link,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .current-menu-item>.ast-menu-toggle,
+			.ast-theme-transparent-header .ast-builder-menu .main-header-menu .current-menu-ancestor>.ast-menu-toggle,
+			.ast-theme-transparent-header [CLASS*="ast-builder-menu-"] .main-header-menu .current-menu-item>.menu-link,
+			.ast-theme-transparent-header [CLASS*="ast-builder-menu-"] .main-header-menu .current-menu-ancestor>.menu-link,
+			.ast-theme-transparent-header [CLASS*="ast-builder-menu-"] .main-header-menu .current-menu-item>.ast-menu-toggle,
+			.ast-theme-transparent-header [CLASS*="ast-builder-menu-"] .main-header-menu .current-menu-ancestor>.ast-menu-toggle,
+			.ast-theme-transparent-header .main-header-menu .menu-item:hover>.menu-link,
+			.ast-theme-transparent-header .main-header-menu .current-menu-item>.menu-link,
+			.ast-theme-transparent-header .main-header-menu .current-menu-ancestor>.menu-link {
+				color: var(--ast-global-color-0);
+			}
+		}
+
+		@media (max-width:544px) {
+
+			.ast-theme-transparent-header .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-menu,
+			.ast-theme-transparent-header.ast-header-break-point .main-header-bar-wrap .main-header-bar,
+			.ast-theme-transparent-header.ast-header-break-point .ast-mobile-header-wrap .main-header-bar {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+
+			.ast-theme-transparent-header .main-header-bar .ast-search-menu-icon form {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+
+			.ast-theme-transparent-header .ast-above-header,
+			.ast-theme-transparent-header .ast-above-header.ast-above-header-bar,
+			.ast-theme-transparent-header .ast-below-header,
+			.ast-header-break-point.ast-theme-transparent-header .ast-above-header,
+			.ast-header-break-point.ast-theme-transparent-header .ast-below-header {
+				background-color: rgba(255, 255, 255, 0.11);
+			}
+		}
+
+		.ast-theme-transparent-header #ast-desktop-header>[CLASS*="-header-wrap"]:nth-last-child(2)>[CLASS*="-header-bar"],
+		.ast-theme-transparent-header.ast-header-break-point #ast-mobile-header>[CLASS*="-header-wrap"]:nth-last-child(2)>[CLASS*="-header-bar"] {
+			border-bottom-width: 0px;
+			border-bottom-style: solid;
 		}
 
 		.ast-breadcrumbs .trail-browse,
@@ -2363,14 +2573,13 @@
 			}
 		}
 
-		.ast-primary-header-bar {
-			background-image: linear-gradient(135deg, rgba(71, 28, 62, 0.76) 9%, rgba(107, 37, 37, 0.79) 67%, rgba(56, 5, 5, 0.64) 82%), url(https://jnic2024.github.io/wp-content/uploads/2024/01/spain-scaled.jpg);
-			;
+		/* .ast-primary-header-bar {
+			background-image: linear-gradient(135deg, rgba(71, 28, 62, 0.76) 9%, rgba(107, 37, 37, 0.79) 67%, rgba(56, 5, 5, 0.64) 82%);
 			background-repeat: repeat-x;
 			background-position: center center;
 			background-size: cover;
 			background-attachment: fixed;
-		}
+		} */
 
 		@media (max-width:921px) {
 
@@ -2386,10 +2595,6 @@
 			.ast-primary-header-bar .site-primary-header-wrap {
 				min-height: 80px;
 			}
-		}
-
-		.ast-primary-header-bar {
-			display: block;
 		}
 
 		@media (max-width:921px) {
@@ -2534,7 +2739,8 @@
 		href="https://fonts.googleapis.com/css?family=Inter%3A400%2C600%7CPlus+Jakarta+Sans%3A600&display=fallback&ver=4.3.1"
 		media="all">
 	<link rel="stylesheet" id="wp-block-library-css"
-		href="https://jnic2024.github.io/wp-includes/css/dist/block-library/style.min.css" media="all">
+		href="https://paquitoelchocolatero.github.io/jnic2025/wp-includes/css/dist/block-library/style.min.css"
+		media="all">
 	<style id="global-styles-inline-css">
 		body {
 			--wp--preset--color--black: #000000;
@@ -3075,30 +3281,53 @@
 		}
 	</style>
 
-	<link rel="icon" href="https://jnic2024.github.io/wp-content/uploads/2023/09/cropped-logo-1-32x32.png"
+	<link rel="icon"
+		href="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/cropped-logo-1-32x32.png"
 		sizes="32x32">
-	<link rel="icon" href="https://jnic2024.github.io/wp-content/uploads/2023/09/cropped-logo-1-192x192.png"
+	<link rel="icon"
+		href="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/cropped-logo-1-192x192.png"
 		sizes="192x192">
 	<link rel="apple-touch-icon"
-		href="https://jnic2024.github.io/wp-content/uploads/2023/09/cropped-logo-1-180x180.png">
+		href="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/cropped-logo-1-180x180.png">
 	<meta name="msapplication-TileImage"
-		content="https://jnic2024.github.io/wp-content/uploads/2023/09/cropped-logo-1-270x270.png">
+		content="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/cropped-logo-1-270x270.png">
+
+	<style type="text/css">
+		body>iframe {
+			display: none;
+		}
+
+		#jnicCountdown {
+			width: 240px;
+			height: 45px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/jquery.plugin.js"></script>
+	<script src="js/jquery.countdown.js"></script>
+	<script>
+		$(function () {
+			var jnicDay = new Date();
+			jnicDay = new Date(2025, 6 - 1, 4);
+			$('#jnicCountdown').countdown({ until: jnicDay, format: 'owdhm', labels: ['Años', 'Meses', 'Semanas', 'Días', 'Horas', 'Minutos', 'Segundos'] });
+		});
+	</script>
 </head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope"
-	class="page-template-default page page-id-202 wp-custom-logo ast-desktop ast-plain-container ast-no-sidebar astra-4.3.1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header elementor-default elementor-kit-96">
+	class="home page-template-default page page-id-7 wp-custom-logo ast-desktop ast-plain-container ast-no-sidebar astra-4.3.1 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header elementor-default elementor-kit-96">
 
 	<a class="skip-link screen-reader-text" href="#content" role="link" title="Skip to content">
 		Skip to content</a>
-
 	<div class="hfeed site" id="page">
-		
+
 
 
 		<!-- HEADER -->
 		<header
 			class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline"
-			id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead">
+			id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"
+			style="position: fixed; top: 0; background-color:rgba(53,7,24,1)"><!--rgba(56,11,14,1)-->
 
 			<!-- DESKTOP HEADER -->
 			<div id="ast-desktop-header" data-toggle-type="dropdown">
@@ -3115,16 +3344,20 @@
 										data-section="title_tagline">
 
 										<!-- HOME JNIC LOGO -->
-										<div class="site-branding ast-site-identity"
+										<div class="site-branding ast-site-identity ast-flex"
 											itemtype="https://schema.org/Organization" itemscope="itemscope">
-											<span class="site-logo-img"><a href="https://jnic2024.github.io/"
-													class="custom-logo-link" rel="home"><img width="266" height="55"
-														src="https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-266x55.png"
-														class="custom-logo" alt="JNIC 2024" decoding="async"
-														srcset="https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-266x55.png 266w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-300x62.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-768x158.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1.png 803w"
-														sizes="(max-width: 266px) 100vw, 266px"></a></span>
+											<span class="site-logo-img"><a
+													href="https://paquitoelchocolatero.github.io/jnic2025/"
+													class="custom-logo-link" rel="home" aria-current="page"><img
+														src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/2025/2025_LOGO_JNIC_Texto_y_Año_Blanco.png"
+														class="custom-logo" alt="JNIC 2025" decoding="async"></a></span>
 										</div>
 
+									</div>
+									<!-- CONGRESS COUNTDOWN -->
+									<div class="ast-builder-layout-element ast-flex site-header-focus-item"
+										data-section="title_tagline">
+										<span id="jnicCountdown" class="countdown is-countdown"></span>
 									</div>
 								</div>
 								<div
@@ -3142,33 +3375,40 @@
 															class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile">
 															<li id="menu-item-60"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60">
-																<a rel="inicio" href="/" class="menu-link">Inicio</a>
+																<a rel="inicio"
+																	href="https://paquitoelchocolatero.github.io/jnic2025/"
+																	class="menu-link">Inicio</a>
 															</li>
 															<li id="menu-item-12"
-																class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-12">
-																<a href="/sede" aria-current="page"
-																	class="menu-link">Sede</a></li>
+																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12">
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/sede"
+																	class="menu-link">Sede</a>
+															</li>
 															<li id="menu-item-15"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15">
-																<a href="/contacto" class="menu-link">Contacto</a></li>
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/contacto"
+																	class="menu-link">Contacto</a>
+															</li>
 															<li id="menu-item-11"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11">
-																<a href="/comites" class="menu-link">Comités</a></li>
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/comites"
+																	class="menu-link">Comités</a>
+															</li>
 															<!-- <li id="menu-item-1519"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1519">
-																<a href="/programa" class="menu-link">Programa</a></li> -->
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/programa" class="menu-link">Programa</a></li> -->
 															<!-- <li id="menu-item-1645"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1645">
-																<a href="/inscripcion" class="menu-link">Inscripción</a>
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/inscripcion" class="menu-link">Inscripción</a>
 															</li> -->
 															<!-- <li id="menu-item-885"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
-																<a href="/call-for-papers" class="menu-link"
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/call-for-papers" class="menu-link"
 																	style="background-color: rgba(255, 255, 255, 0.15);">Call
 																	For Papers</a></li> -->
 															<!-- <li id="menu-item-1285"
 																class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1285">
-																<a href="/capture-the-flag" class="menu-link"
+																<a href="https://paquitoelchocolatero.github.io/jnic2025/capture-the-flag" class="menu-link"
 																	style="background-color: rgba(255, 255, 255, 0.15);margin-left: 20px;">Capture
 																	The Flag</a></li> -->
 														</ul>
@@ -3191,7 +3431,8 @@
 															<path
 																d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
 															</path>
-														</svg></span></a></div>
+														</svg></span></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -3219,14 +3460,12 @@
 									<!-- HOME JNIC LOGO -->
 									<div class="site-branding ast-site-identity"
 										itemtype="https://schema.org/Organization" itemscope="itemscope">
-										<span class="site-logo-img"><a href="https://jnic2024.github.io/"
-												class="custom-logo-link" rel="home"><img width="266" height="55"
-													src="https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-266x55.png"
-													class="custom-logo" alt="JNIC 2024" decoding="async"
-													srcset="https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-266x55.png 266w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-300x62.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1-768x158.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/01/cropped-logo_hor_white-1.png 803w"
-													sizes="(max-width: 266px) 100vw, 266px"></a></span>
+										<span class="site-logo-img"><a
+												href="https://paquitoelchocolatero.github.io/jnic2025/"
+												class="custom-logo-link" rel="home" aria-current="page"><img
+													src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/2025/2025_LOGO_JNIC_Texto_y_Año_Blanco.png"
+													class="custom-logo" alt="JNIC 2025" decoding="async"></a></span>
 									</div>
-
 								</div>
 							</div>
 							<div
@@ -3262,7 +3501,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="ast-mobile-header-content content-align-flex-start ">
+				<div class="ast-mobile-header-content content-align-flex-start">
 					<div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item"
 						data-section="section-header-mobile-menu">
 						<div class="ast-main-header-bar-alignment">
@@ -3271,32 +3510,35 @@
 									itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"
 									aria-label="Site Navigation">
 									<div id="ast-hf-mobile-menu" class="main-navigation">
-										<ul
-											class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-											<!-- <li class="page_item page-item-403 menu-item"><a
-													href="https://jnic2024.github.io/call-for-papers/"
-													class="menu-link">Call-For-Papers</a></li> -->
-											<!-- <li class="page_item page-item-472 menu-item"><a
-													href="https://jnic2024.github.io/capture-the-flag/"
-													class="menu-link">Capture-The-Flag</a></li> -->
-											<li class="page_item page-item-340 menu-item"><a
-													href="https://jnic2024.github.io/comites/"
-													class="menu-link">Comites</a></li>
-											<li class="page_item page-item-371 menu-item"><a
-													href="https://jnic2024.github.io/contacto/"
-													class="menu-link">Contacto</a></li>
-											<li class="page_item page-item-7 menu-item"><a
-													href="https://jnic2024.github.io/" class="menu-link">Inicio</a></li>
-											<!-- <li class="page_item page-item-389 menu-item"><a
-													href="https://jnic2024.github.io/inscripcion/"
-													class="menu-link">Inscripcion</a></li> -->
-											<!-- <li class="page_item page-item-259 menu-item"><a
-													href="https://jnic2024.github.io/programa/"
-													class="menu-link">Programa</a></li> -->
+										<ul class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile"
+											style="background-color:rgba(82, 42, 56); border: none;">
 											<li
-												class="page_item page-item-202 current-menu-item menu-item current-menu-item">
-												<a href="https://jnic2024.github.io/sede/" class="menu-link">Sede</a>
+												class="page_item page-item-7 current-menu-item menu-item current-menu-item">
+												<a href="https://paquitoelchocolatero.github.io/jnic2025/"
+													class="menu-link" style="color: white; border: none">Inicio</a></li>
+											<li class="page_item page-item-202 menu-item"><a
+													href="https://paquitoelchocolatero.github.io/jnic2025/sede/"
+													class="menu-link" style="color: white; border: none">Sede</a></li>
+											<li class="page_item page-item-371 menu-item"><a
+													href="https://paquitoelchocolatero.github.io/jnic2025/contacto/"
+													class="menu-link" style="color: white; border: none">Contacto</a>
 											</li>
+											<li class="page_item page-item-340 menu-item"><a
+													href="https://paquitoelchocolatero.github.io/jnic2025/comites/"
+													class="menu-link" style="color: white; border: none">Comités</a>
+											</li>
+											<!-- <li class="page_item page-item-259 menu-item"><a
+												href="https://paquitoelchocolatero.github.io/jnic2025/programa/"
+												class="menu-link" style="color: white; border: none">Programa</a></li> -->
+											<!-- <li class="page_item page-item-389 menu-item"><a
+												href="https://paquitoelchocolatero.github.io/jnic2025/inscripcion/"
+												class="menu-link" style="color: white; border: none">Inscripcion</a></li> -->
+											<!-- <li class="page_item page-item-403 menu-item"><a
+												href="https://paquitoelchocolatero.github.io/jnic2025/call-for-papers/"
+												class="menu-link" style="color: white; border: none">Call-For-Papers</a></li> -->
+											<!-- <li class="page_item page-item-472 menu-item"><a
+												href="https://paquitoelchocolatero.github.io/jnic2025/capture-the-flag/"
+												class="menu-link" style="color: white; border: none">Capture-The-Flag</a></li> -->
 										</ul>
 									</div>
 								</nav>
@@ -3316,7 +3558,7 @@
 				<div id="primary" class="content-area primary">
 
 					<main id="main" class="site-main">
-						<article class="post-202 page type-page status-publish ast-article-single" id="post-202"
+						<article class="post-7 page type-page status-publish ast-article-single" id="post-7"
 							itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
 
 							<header class="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup">
@@ -3327,12 +3569,10 @@
 								<!-- Venue picture -->
 								<div class="wp-block-cover alignfull"><span aria-hidden="true"
 										class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img
-										fetchpriority="high" decoding="async" width="1900" height="933"
+										fetchpriority="high" decoding="async" width="100em"
 										class="wp-block-cover__image-background wp-image-112" alt=""
 										src="https://jnic2024.github.io/wp-content/uploads/2023/09/portada.jpg"
-										data-object-fit="cover"
-										srcset="https://jnic2024.github.io/wp-content/uploads/2023/09/portada.jpg 1900w,https://jnic2024.github.io/wp-content/uploads/2023/09/portada-300x147.jpg 300w,https://jnic2024.github.io/wp-content/uploads/2023/09/portada-1024x503.jpg 1024w,https://jnic2024.github.io/wp-content/uploads/2023/09/portada-768x377.jpg 768w,https://jnic2024.github.io/wp-content/uploads/2023/09/portada-1536x754.jpg 1536w"
-										sizes="(max-width: 1900px) 100vw, 1900px">
+										data-object-fit="cover" style="margin-top: 80px;">
 									<div
 										class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
 										<p class="has-text-align-center has-large-font-size"></p>
@@ -3355,36 +3595,41 @@
 
 													<p
 														style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-														Universidad de Zaragoza <br>Escuela de Ingeniería y Arquitectura <br>Calle María de Luna, 3<br>50018 Zaragoza</p>
+														Universidad de Zaragoza <br>Escuela de Ingeniería y Arquitectura
+														<br>Calle María de Luna, 3<br>50018 Zaragoza</p>
 
 													<h3 class="wp-block-heading">Hoteles</h3>
 
 													<!-- <p><a
-															href="https://www.eurostarshotels.com/exe-sevilla-palmera.html">Exe
-															Sevilla Palmera</a> (****). C/. Cardenal Ilundain, 28<br><a
-															href="https://www.marriott.com/es/hotels/svqci-ac-hotel-ciudad-de-sevilla/overview/"
-															data-type="link"
-															data-id="https://ac-hotels.marriott.com/es-XM/">AC Hotel
-															Marriott Ciudad de Sevilla</a> (****). Av. Manuel Siurot,
-														25<br><a
-															href="https://www.hoteles-silken.com/es/hotel-al-andalus-sevilla/">Silken
-															Al-Andalus Palace</a> (****). Av. de la Palmera, s/n<br><a
-															href="https://www.melia.com/es/hoteles/espana/sevilla/melia-sevilla">Meliá
-															Sevilla</a> (****). C/. Dr. Pedro de Castro, 1<br><a
-															href="https://www.barcelo.com/es-es/occidental-sevilla-viapol/">Occidental
-															Sevilla Viapol</a> (****).  C/. Balbino Marrón, 9<br><a
-															href="https://www.nh-collection.com/es/hotel/nh-collection-sevilla"
-															data-type="link"
-															data-id="https://www.nh-collection.com/es/hotel/nh-collection-sevilla">NH
-															Collection Sevilla</a> (****). Av. Diego Martínez Barrio,
-														8<br><a href="https://www.hotelpasarela.com/es/">Hotel
-															Pasarela</a> (****). Av. de la Borbolla, 11<br></p> -->
+														href="https://www.eurostarshotels.com/exe-sevilla-palmera.html">Exe
+														Sevilla Palmera</a> (****). C/. Cardenal Ilundain, 28<br><a
+														href="https://www.marriott.com/es/hotels/svqci-ac-hotel-ciudad-de-sevilla/overview/"
+														data-type="link"
+														data-id="https://ac-hotels.marriott.com/es-XM/">AC Hotel
+														Marriott Ciudad de Sevilla</a> (****). Av. Manuel Siurot,
+													25<br><a
+														href="https://www.hoteles-silken.com/es/hotel-al-andalus-sevilla/">Silken
+														Al-Andalus Palace</a> (****). Av. de la Palmera, s/n<br><a
+														href="https://www.melia.com/es/hoteles/espana/sevilla/melia-sevilla">Meliá
+														Sevilla</a> (****). C/. Dr. Pedro de Castro, 1<br><a
+														href="https://www.barcelo.com/es-es/occidental-sevilla-viapol/">Occidental
+														Sevilla Viapol</a> (****).  C/. Balbino Marrón, 9<br><a
+														href="https://www.nh-collection.com/es/hotel/nh-collection-sevilla"
+														data-type="link"
+														data-id="https://www.nh-collection.com/es/hotel/nh-collection-sevilla">NH
+														Collection Sevilla</a> (****). Av. Diego Martínez Barrio,
+													8<br><a href="https://www.hotelpasarela.com/es/">Hotel
+														Pasarela</a> (****). Av. de la Borbolla, 11<br></p> -->
 												</div>
 
 												<!-- GMAPS IFRAME -->
 												<div
 													class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-													<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.300293109554!2d-0.8894969462715681!3d41.681861072014456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd59135de59ad0ab%3A0x9333768ee4eff3d9!2sEsquela%20De%20Ingenieria%20Y%20Arquitectura!5e0!3m2!1ses!2ses!4v1731513824144!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.300293109554!2d-0.8894969462715681!3d41.681861072014456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd59135de59ad0ab%3A0x9333768ee4eff3d9!2sEsquela%20De%20Ingenieria%20Y%20Arquitectura!5e0!3m2!1ses!2ses!4v1731513824144!5m2!1ses!2ses"
+														width="600" height="450" style="border:0;" allowfullscreen=""
+														loading="lazy"
+														referrerpolicy="no-referrer-when-downgrade"></iframe>
 												</div>
 											</div>
 										</div>
@@ -3394,290 +3639,284 @@
 
 									<h3 class="wp-block-heading">Accesos</h3>
 
-									<p style="text-align: justify">La Escuela de Ingeniería y Arquitectura está situada en la Universidad de Sevilla
+									<p style="text-align: justify">La Escuela de Ingeniería y Arquitectura está situada
+										en la Universidad de Sevilla
 										y cuenta con un fácil acceso mediante los servicios públicos de transporte.</p>
 
-									<h4 class="wp-block-heading">Acceso por autobús</h4>
+									<!-- <h4 class="wp-block-heading">Acceso por autobús</h4> -->
 
 									<!-- <p>Autobuses que llegan a la ETSII: <br> – Línea 02. Barqueta – Glorieta
-										Heliópolis.<br> – Línea 03. Bellavista – Pino Montano.<br> – Línea 06. Glorieta
-										Heliópolis – San Lázaro.<br> – Línea 34. Los Bermejales – Prado.<br>Obtén mas
-										información en el siguiente enlace: <a href="http://www.tussam.es/"
-											target="_blank" rel="noreferrer noopener">TUSSAM</a></p> -->
+									Heliópolis.<br> – Línea 03. Bellavista – Pino Montano.<br> – Línea 06. Glorieta
+									Heliópolis – San Lázaro.<br> – Línea 34. Los Bermejales – Prado.<br>Obtén mas
+									información en el siguiente enlace: <a href="http://www.tussam.es/"
+										target="_blank" rel="noreferrer noopener">TUSSAM</a></p> -->
 
-									<h4 class="wp-block-heading">Acceso por bicicleta</h4>
+									<!-- <h4 class="wp-block-heading">Acceso por bicicleta</h4> -->
 
 									<!-- <p style="text-align: justify">También puedes visitar la escuela utilizando el
-										carril bici de Reina Mercedes, que cuenta además con varias estaciones del
-										servicio municipal de alquiler de bicicletas (<a href="http://www.sevici.es/"
-											target="_blank" rel="noreferrer noopener">SEViCi</a>).</p> -->
+									carril bici de Reina Mercedes, que cuenta además con varias estaciones del
+									servicio municipal de alquiler de bicicletas (<a href="http://www.sevici.es/"
+										target="_blank" rel="noreferrer noopener">SEViCi</a>).</p> -->
 
-									
+
 
 									<!-- RISK PREVENTION DOSIER -->
-									<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex"
-										style="padding-right:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
-										<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-4 wp-block-column-is-layout-flow"
-											style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-											<div
-												class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-												<div class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-2 wp-block-group-is-layout-constrained"
-													style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-													<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1 wp-block-group-is-layout-flex"
-														style="border-width:1px;border-radius:10px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)">
-														<svg xmlns="http://www.w3.org/2000/svg" height="3em"
-															viewbox="0 0 384 512">
-															<style>
-																svg {
-																	fill: #000000
-																}
-															</style>
-															<path
-																d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z">
-															</path>
-														</svg>
+									<!-- <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex"
+									style="padding-right:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
+									<div class="wp-block-column is-layout-flow wp-container-core-column-is-layout-4 wp-block-column-is-layout-flow"
+										style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+										<div
+											class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+											<div class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-2 wp-block-group-is-layout-constrained"
+												style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+												<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1 wp-block-group-is-layout-flex"
+													style="border-width:1px;border-radius:10px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)">
+													<svg xmlns="http://www.w3.org/2000/svg" height="3em"
+														viewbox="0 0 384 512">
+														<style>
+															svg {
+																fill: #000000
+															}
+														</style>
+														<path
+															d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z">
+														</path>
+													</svg>
 
-														<h3 class="wp-block-heading has-medium-font-size"><a
-																href="https://jnic2024.github.io/wp-content/uploads/2024/05/sec_etsii_prev.pdf"
-																data-type="link"
-																data-id="https://jnic2024.github.io/wp-content/uploads/2024/05/sec_etsii_prev.pdf"
-																target="_blank" rel="noreferrer noopener">Información de
-																seguridad y prevención de riesgos</a></h3>
-													</div>
+													<h3 class="wp-block-heading has-medium-font-size"><a
+															href="https://jnic2024.github.io/wp-content/uploads/2024/05/sec_etsii_prev.pdf"
+															data-type="link"
+															data-id="https://jnic2024.github.io/wp-content/uploads/2024/05/sec_etsii_prev.pdf"
+															target="_blank" rel="noreferrer noopener">Información de
+															seguridad y prevención de riesgos</a></h3>
 												</div>
 											</div>
 										</div>
 									</div>
+								</div> -->
 
 									<div style="height:76px" aria-hidden="true" class="wp-block-spacer"></div>
 
-
-
 									<!-- JNIC EDITION LOGO -->
 									<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy"
-										decoding="async" width="1024" height="176"
-										src="https://jnic2024.github.io/wp-content/uploads/2023/09/logo_texto_banner_without_tri-1024x176.png"
-										alt="" class="wp-image-48"
-										style="aspect-ratio:5.828025477707007;object-fit:cover;width:915px"
-										srcset="https://jnic2024.github.io/wp-content/uploads/2023/09/logo_texto_banner_without_tri-1024x176.png 1024w,https://jnic2024.github.io/wp-content/uploads/2023/09/logo_texto_banner_without_tri-300x52.png 300w,https://jnic2024.github.io/wp-content/uploads/2023/09/logo_texto_banner_without_tri-768x132.png 768w,https://jnic2024.github.io/wp-content/uploads/2023/09/logo_texto_banner_without_tri.png 1307w"
-										sizes="(max-width: 1024px) 100vw, 1024px"></figure>
-
-								<div style="height:56px" aria-hidden="true" class="wp-block-spacer"></div>
+											decoding="async"
+											src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/logojnicweb.png"
+											alt="" class="wp-image" width="500vw"></figure>
 
 
 
-								<!-- ORGANIZERS -->
-								<div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex"
+									<!-- ORGANIZERS -->
+									<div class="wp-block-columns alignfull is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex"
+										style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+										<div class="wp-block-column is-layout-constrained wp-block-column-is-layout-constrained"
+											style="flex-basis:100%">
+											<div
+												class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-5 wp-block-group-is-layout-flex">
+												<div
+													class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+
+													<!-- GOVERNMENT -->
+													<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+														style="flex-basis:470px">
+														<figure class="wp-block-image aligncenter size-full is-resized">
+															<img loading="lazy" decoding="async" width="600vh"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/Ministerio/15-4- MTDFP.Gob + SEDIA.jpg"
+																alt="" class="wp-image-964">
+														</figure>
+													</div>
+
+													<!-- INCIBE -->
+													<div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow"
+														style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);flex-basis:500px">
+														<figure class="wp-block-image aligncenter size-full is-resized">
+															<a href="https://www.incibe.es/"><img loading="lazy"
+																	decoding="async" width="400vh"
+																	src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/INCIBE/incibe.png"
+																	alt="" class="wp-image-1484"></a>
+														</figure>
+													</div>
+
+													<!-- UNIVERSITY -->
+													<!-- <div
+														class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+														<figure class="wp-block-image size-full is-resized"><a
+																href="https://investigacion.us.es/"><img loading="lazy"
+																	decoding="async" width="1696" height="686"
+																	src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2.png"
+																	alt="" class="wp-image-1478"
+																	style="width:417px;height:auto"
+																	srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2.png 1696w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2-300x121.png 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2-1024x414.png 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2-768x311.png 768w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/05/INVES2-1536x621.png 1536w"
+																	sizes="(max-width: 1696px) 100vw, 1696px"></a>
+														</figure>
+													</div> -->
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
+								</div>
+
+								<!-- TIER 1 SPONSORS -->
+								<!-- <h3 class="wp-block-heading has-text-align-center has-large-font-size">Patrocinadores
+									Diamante</h3>
+
+								<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
+
+								<figure class="wp-block-image aligncenter size-large is-resized"><a
+										href="https://www.teknoservice.es"><img loading="lazy" decoding="async"
+											width="1024" height="409"
+											src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1024x409.png"
+											alt="" class="wp-image-1154" style="width:588px;height:auto"
+											srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1024x409.png 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-300x120.png 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-768x307.png 768w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1536x613.png 1536w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-2048x818.png 2048w"
+											sizes="(max-width: 1024px) 100vw, 1024px"></a></figure>
+
+								<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div> -->
+
+								<!-- TIER 2 SPONSORS -->
+								<h3 class="wp-block-heading has-text-align-center has-large-font-size">Patrocinadores
+								</h3>
+
+								<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7 wp-block-columns-is-layout-flex"
 									style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-									<div class="wp-block-column is-layout-constrained wp-block-column-is-layout-constrained"
+									<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
 										style="flex-basis:100%">
 										<div
-											class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-5 wp-block-group-is-layout-flex">
+											class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-7 wp-block-group-is-layout-flex">
 											<div
-												class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+												class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-6 wp-block-columns-is-layout-flex">
+												<!-- <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+													style="flex-basis:470px">
+													<figure class="wp-block-image aligncenter size-full is-resized"><a
+															href="https://www.caixaenginyers.com/es/soci-cooperatiu"><img
+																loading="lazy" decoding="async" width="3126"
+																height="562"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST.png"
+																alt="" class="wp-image-1057"
+																style="width:604px;height:auto"
+																srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST.png 3126w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-300x54.png 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-1024x184.png 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-768x138.png 768w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-1536x276.png 1536w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-2048x368.png 2048w"
+																sizes="(max-width: 3126px) 100vw, 3126px"></a></figure>
+												</div>
 
-												<!-- GOVERNMENT -->
+												<div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow"
+													style="flex-basis:500px">
+													<figure class="wp-block-image aligncenter size-full is-resized"><a
+															href="https://www.softcom.es/"><img loading="lazy"
+																decoding="async" width="1505" height="413"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/02/Logo-Softcom-01.png"
+																alt="" class="wp-image-967"
+																style="width:330px;height:auto"
+																srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/02/Logo-Softcom-01.png 1505w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/02/Logo-Softcom-01-300x82.png 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/02/Logo-Softcom-01-1024x281.png 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/02/Logo-Softcom-01-768x211.png 768w"
+																sizes="(max-width: 1505px) 100vw, 1505px"></a></figure>
+												</div> -->
+
+												<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+													style="flex-basis:400px">
+													<figure class="wp-block-image size-full is-resized"><a
+															href="https://renic.es/es"><img loading="lazy"
+																decoding="async" width="300vh"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/01/renic-logo.png"
+																alt="" class="wp-image-726"></a></figure>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9 wp-block-columns-is-layout-flex"
+									style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+									<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+										style="flex-basis:100%">
+										<div
+											class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex">
+											<div
+												class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-8 wp-block-columns-is-layout-flex">
 												<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
 													style="flex-basis:470px">
-													<figure class="wp-block-image aligncenter size-full is-resized">
-														<img loading="lazy" decoding="async" width="2560"
-															height="477"
-															src="https://jnic2024.github.io/wp-content/uploads/2024/02/min-scaled.jpg"
-															alt="" class="wp-image-964"
-															style="width:656px;height:auto"
-															srcset="https://jnic2024.github.io/wp-content/uploads/2024/02/min-scaled.jpg 2560w,https://jnic2024.github.io/wp-content/uploads/2024/02/min-300x56.jpg 300w,https://jnic2024.github.io/wp-content/uploads/2024/02/min-1024x191.jpg 1024w,https://jnic2024.github.io/wp-content/uploads/2024/02/min-768x143.jpg 768w,https://jnic2024.github.io/wp-content/uploads/2024/02/min-1536x286.jpg 1536w,https://jnic2024.github.io/wp-content/uploads/2024/02/min-2048x381.jpg 2048w"
-															sizes="(max-width: 2560px) 100vw, 2560px"></figure>
+													<figure class="wp-block-image aligncenter size-full is-resized"><a
+															href="https://www.viewnext.com/"><img loading="lazy"
+																decoding="async" width="680" height="200"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/VIEWNEXT_COLOR.png"
+																alt="" class="wp-image-1214"
+																style="width:367px;height:auto"
+																srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/VIEWNEXT_COLOR.png 680w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/VIEWNEXT_COLOR-300x88.png 300w"
+																sizes="(max-width: 680px) 100vw, 680px"></a></figure>
 												</div>
 
-												<!-- INCIBE -->
-												<div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow"
-													style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);flex-basis:500px">
-													<figure class="wp-block-image aligncenter size-full is-resized">
-														<a href="https://www.incibe.es/"><img loading="lazy"
-																decoding="async" width="830" height="212"
-																src="https://jnic2024.github.io/wp-content/uploads/2024/05/incibe_MAX.png"
-																alt="" class="wp-image-1484"
-																style="width:356px;height:auto"
-																srcset="https://jnic2024.github.io/wp-content/uploads/2024/05/incibe_MAX.png 830w,https://jnic2024.github.io/wp-content/uploads/2024/05/incibe_MAX-300x77.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/05/incibe_MAX-768x196.png 768w"
-																sizes="(max-width: 830px) 100vw, 830px"></a>
-													</figure>
-												</div>
-
-												<!-- UNIVERSITY -->
 												<div
-													class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-													<figure class="wp-block-image size-full is-resized"><a
-															href="https://investigacion.us.es/"><img loading="lazy"
-																decoding="async" width="1696" height="686"
-																src="https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2.png"
-																alt="" class="wp-image-1478"
-																style="width:417px;height:auto"
-																srcset="https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2.png 1696w,https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2-300x121.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2-1024x414.png 1024w,https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2-768x311.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/05/INVES2-1536x621.png 1536w"
-																sizes="(max-width: 1696px) 100vw, 1696px"></a>
-													</figure>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
-							</div>
-
-							<!-- TIER 1 SPONSORS -->
-							<h3 class="wp-block-heading has-text-align-center has-large-font-size">Patrocinadores
-								Diamante</h3>
-
-							<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
-
-							<figure class="wp-block-image aligncenter size-large is-resized"><a
-									href="https://www.teknoservice.es"><img loading="lazy" decoding="async"
-										width="1024" height="409"
-										src="https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1024x409.png"
-										alt="" class="wp-image-1154" style="width:588px;height:auto"
-										srcset="https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1024x409.png 1024w,https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-300x120.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-768x307.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-1536x613.png 1536w,https://jnic2024.github.io/wp-content/uploads/2024/04/LOGO-TK-TECNOLOGIA-EN-SUS-MANOS-TTL-2048x818.png 2048w"
-										sizes="(max-width: 1024px) 100vw, 1024px"></a></figure>
-
-							<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-
-							<!-- TIER 2 SPONSORS -->
-							<h3 class="wp-block-heading has-text-align-center has-large-font-size">Patrocinadores
-								Oro</h3>
-
-							<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7 wp-block-columns-is-layout-flex"
-								style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-								<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
-									style="flex-basis:100%">
-									<div
-										class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-7 wp-block-group-is-layout-flex">
-										<div
-											class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-6 wp-block-columns-is-layout-flex">
-											<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
-												style="flex-basis:470px">
-												<figure class="wp-block-image aligncenter size-full is-resized"><a
-														href="https://www.caixaenginyers.com/es/soci-cooperatiu"><img
-															loading="lazy" decoding="async" width="3126"
-															height="562"
-															src="https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST.png"
-															alt="" class="wp-image-1057"
-															style="width:604px;height:auto"
-															srcset="https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST.png 3126w,https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-300x54.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-1024x184.png 1024w,https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-768x138.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-1536x276.png 1536w,https://jnic2024.github.io/wp-content/uploads/2024/03/Logo-Caja-Ingenieros-BANCA-COOPERATIVA-horizontal-CAST-2048x368.png 2048w"
-															sizes="(max-width: 3126px) 100vw, 3126px"></a></figure>
-											</div>
-
-											<div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow"
-												style="flex-basis:500px">
-												<figure class="wp-block-image aligncenter size-full is-resized"><a
-														href="https://www.softcom.es/"><img loading="lazy"
-															decoding="async" width="1505" height="413"
-															src="https://jnic2024.github.io/wp-content/uploads/2024/02/Logo-Softcom-01.png"
-															alt="" class="wp-image-967"
-															style="width:330px;height:auto"
-															srcset="https://jnic2024.github.io/wp-content/uploads/2024/02/Logo-Softcom-01.png 1505w,https://jnic2024.github.io/wp-content/uploads/2024/02/Logo-Softcom-01-300x82.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/02/Logo-Softcom-01-1024x281.png 1024w,https://jnic2024.github.io/wp-content/uploads/2024/02/Logo-Softcom-01-768x211.png 768w"
-															sizes="(max-width: 1505px) 100vw, 1505px"></a></figure>
-											</div>
-
-											<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
-												style="flex-basis:400px">
-												<figure class="wp-block-image size-full is-resized"><a
-														href="https://renic.es/es"><img loading="lazy"
-															decoding="async" width="241" height="72"
-															src="https://jnic2024.github.io/wp-content/uploads/2024/01/renic-logo.png"
-															alt="" class="wp-image-726"
-															style="width:322px;height:auto"></a></figure>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9 wp-block-columns-is-layout-flex"
-								style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-								<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
-									style="flex-basis:100%">
-									<div
-										class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex">
-										<div
-											class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-8 wp-block-columns-is-layout-flex">
-											<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
-												style="flex-basis:470px">
-												<figure class="wp-block-image aligncenter size-full is-resized"><a
-														href="https://www.viewnext.com/"><img loading="lazy"
-															decoding="async" width="680" height="200"
-															src="https://jnic2024.github.io/wp-content/uploads/2024/04/VIEWNEXT_COLOR.png"
-															alt="" class="wp-image-1214"
-															style="width:367px;height:auto"
-															srcset="https://jnic2024.github.io/wp-content/uploads/2024/04/VIEWNEXT_COLOR.png 680w,https://jnic2024.github.io/wp-content/uploads/2024/04/VIEWNEXT_COLOR-300x88.png 300w"
-															sizes="(max-width: 680px) 100vw, 680px"></a></figure>
-											</div>
-
-											<div
 													class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 													<figure class="wp-block-image size-large is-resized"><a
 															href="https://catedraindra.us.es/"><img loading="lazy"
 																decoding="async" width="1024" height="576"
-																src="https://jnic2024.github.io/wp-content/uploads/2024/04/Logo_CI-1024x576.png"
+																src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/Logo_CI-1024x576.png"
 																alt="" class="wp-image-1242"
 																style="width:494px;height:auto"
-																srcset="https://jnic2024.github.io/wp-content/uploads/2024/04/Logo_CI-1024x576.png 1024w,https://jnic2024.github.io/wp-content/uploads/2024/04/Logo_CI-300x169.png 300w,https://jnic2024.github.io/wp-content/uploads/2024/04/Logo_CI-768x432.png 768w,https://jnic2024.github.io/wp-content/uploads/2024/04/Logo_CI.png 1280w"
+																srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/Logo_CI-1024x576.png 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/Logo_CI-300x169.png 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/Logo_CI-768x432.png 768w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/2024/04/Logo_CI.png 1280w"
 																sizes="(max-width: 1024px) 100vw, 1024px"></a></figure>
 												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+
+
+
+								<!-- BOTTOM BANNER -->
+								<div class="wp-block-cover alignfull wp-duotone-unset-1"
+									style="border-style:none;border-width:0px;border-radius:0px;margin-top:var(--wp--preset--spacing);margin-bottom:var(--wp--preset--spacing);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;font-size:10px;min-height:100px;aspect-ratio:unset;"
+									id="contact"><span aria-hidden="true"
+										class="wp-block-cover__background has-background-dim-80 has-background-dim wp-block-cover__gradient-background has-background-gradient"
+										style="background:linear-gradient(135deg,rgb(107,40,86) 0%,rgb(76,0,28) 39%,rgb(39,0,0) 99%,rgb(98,14,14) 100%)"></span><img
+										loading="lazy" decoding="async" width="2560" height="1707"
+										class="wp-block-cover__image-background wp-image-662" alt=""
+										src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-scaled.jpg"
+										style="object-position:34% 29%" data-object-fit="cover"
+										data-object-position="34% 29%"
+										srcset="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-scaled.jpg 2560w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-300x200.jpg 300w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-1024x683.jpg 1024w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-768x512.jpg 768w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-1536x1024.jpg 1536w,https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/spain-2048x1365.jpg 2048w"
+										sizes="(max-width: 2560px) 100vw, 2560px">
+									<div
+										class="wp-block-cover__inner-container is-layout-flow wp-container-core-cover-is-layout-3 wp-block-cover-is-layout-flow">
+										<!-- <div class="wp-block-group alignwide is-layout-constrained wp-container-core-group-is-layout-9 wp-block-group-is-layout-constrained"
+											id="contact" style="padding-top:104px;padding-bottom:104px">
+											<figure class="wp-block-image aligncenter size-full"><img loading="lazy"
+													decoding="async" width="216" height="219"
+													src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/logo_white.png"
+													alt="" class="wp-image-179"></figure>
+										</div> -->
+										<div class="wp-block-group alignwide is-layout-constrained wp-container-core-group-is-layout-9 wp-block-group-is-layout-constrained"
+											id="contact" style="padding-top:1%;padding-bottom:1%">
+											<figure class="wp-block-image aligncenter size-full"><img loading="lazy"
+													decoding="async"
+													src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/uploads/images/JNIC/logo_white.png"
+													alt="" class="wp-image" style="width: 70%;"></figure>
 										</div>
 									</div>
 								</div>
 							</div>
-
-
-
-							<!-- BOTTOM BANNER -->
-							<div class="wp-block-cover alignfull wp-duotone-unset-1"
-								style="border-style:none;border-width:0px;border-radius:0px;margin-top:var(--wp--preset--spacing);margin-bottom:var(--wp--preset--spacing);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;font-size:10px;min-height:100px;aspect-ratio:unset;"
-								id="contact"><span aria-hidden="true"
-									class="wp-block-cover__background has-background-dim-80 has-background-dim wp-block-cover__gradient-background has-background-gradient"
-									style="background:linear-gradient(135deg,rgb(107,40,86) 0%,rgb(76,0,28) 39%,rgb(39,0,0) 99%,rgb(98,14,14) 100%)"></span><img
-									loading="lazy" decoding="async" width="2560" height="1707"
-									class="wp-block-cover__image-background wp-image-662" alt=""
-									src="https://jnic2024.github.io/wp-content/uploads/2024/01/spain-scaled.jpg"
-									style="object-position:34% 29%" data-object-fit="cover"
-									data-object-position="34% 29%"
-									srcset="https://jnic2024.github.io/wp-content/uploads/2024/01/spain-scaled.jpg 2560w,https://jnic2024.github.io/wp-content/uploads/2024/01/spain-300x200.jpg 300w,https://jnic2024.github.io/wp-content/uploads/2024/01/spain-1024x683.jpg 1024w,https://jnic2024.github.io/wp-content/uploads/2024/01/spain-768x512.jpg 768w,https://jnic2024.github.io/wp-content/uploads/2024/01/spain-1536x1024.jpg 1536w,https://jnic2024.github.io/wp-content/uploads/2024/01/spain-2048x1365.jpg 2048w"
-									sizes="(max-width: 2560px) 100vw, 2560px">
-								<div
-									class="wp-block-cover__inner-container is-layout-flow wp-container-core-cover-is-layout-3 wp-block-cover-is-layout-flow">
-									<div class="wp-block-group alignwide is-layout-constrained wp-container-core-group-is-layout-9 wp-block-group-is-layout-constrained"
-										id="contact" style="padding-top:104px;padding-bottom:104px">
-										<figure class="wp-block-image aligncenter size-full"><img loading="lazy"
-												decoding="async" width="216" height="219"
-												src="https://jnic2024.github.io/wp-content/uploads/2023/09/logo_white.png"
-												alt="" class="wp-image-179"></figure>
-									</div>
-								</div>
-							</div>
-						</div>
-					</article>
-				</main>
+						</article>
+					</main>
+				</div>
 			</div>
 		</div>
-	</div>
-	<footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope"
-		itemid="#colophon">
-		<div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack"
-			data-section="section-below-footer-builder">
-			<div class="ast-builder-grid-row-container-inner">
-				<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
-					<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
-						<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright"
-							data-section="section-footer-builder">
-							<div class="ast-footer-copyright">
-								<p>Copyright © JNIC 2025</p>
+		<footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope"
+			itemid="#colophon">
+			<div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack"
+				data-section="section-below-footer-builder">
+				<div class="ast-builder-grid-row-container-inner">
+					<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
+						<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
+							<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright"
+								data-section="section-footer-builder">
+								<div class="ast-footer-copyright">
+									<p>Copyright © JNIC 2025</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-		</div>
-	</footer>
+			</div>
+		</footer>
 	</div>
 
 	<div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
@@ -3690,24 +3929,30 @@
 	<style id="core-block-supports-inline-css">
 		.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1 {
 			flex-wrap: nowrap;
+			gap: 2em 0;
 		}
 
-		.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2 {
+		.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2 {
 			flex-wrap: nowrap;
+			justify-content: center;
 		}
 
-		.wp-container-core-group-is-layout-1.wp-container-core-group-is-layout-1 {
-			gap: var(--wp--preset--spacing--40);
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2>* {
+		.wp-container-core-cover-is-layout-1.wp-container-core-cover-is-layout-1>* {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
 
-		.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2>*+* {
+		.wp-container-core-cover-is-layout-1.wp-container-core-cover-is-layout-1.wp-container-core-cover-is-layout-1.wp-container-core-cover-is-layout-1>*+* {
+			margin-block-start: var(--wp--preset--spacing--70);
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2>* {
+			margin-block-start: 0;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2>*+* {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
@@ -3718,20 +3963,68 @@
 		}
 
 		.wp-container-core-column-is-layout-4.wp-container-core-column-is-layout-4.wp-container-core-column-is-layout-4.wp-container-core-column-is-layout-4>*+* {
+			margin-block-start: 8px;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-column-is-layout-5.wp-container-core-column-is-layout-5>* {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
 
+		.wp-container-core-column-is-layout-5.wp-container-core-column-is-layout-5.wp-container-core-column-is-layout-5.wp-container-core-column-is-layout-5>*+* {
+			margin-block-start: 8px;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-column-is-layout-6.wp-container-core-column-is-layout-6>* {
+			margin-block-start: 0;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-column-is-layout-6.wp-container-core-column-is-layout-6.wp-container-core-column-is-layout-6.wp-container-core-column-is-layout-6>*+* {
+			margin-block-start: 8px;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-column-is-layout-7.wp-container-core-column-is-layout-7>* {
+			margin-block-start: 0;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-column-is-layout-7.wp-container-core-column-is-layout-7.wp-container-core-column-is-layout-7.wp-container-core-column-is-layout-7>*+* {
+			margin-block-start: 8px;
+			margin-block-end: 0;
+		}
+
+		.wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2 {
+			flex-wrap: nowrap;
+			gap: 40px;
+		}
+
+		.wp-container-core-group-is-layout-3.wp-container-core-group-is-layout-3> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: 1200px;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.wp-container-core-group-is-layout-3.wp-container-core-group-is-layout-3>.alignwide {
+			max-width: 1200px;
+		}
+
+		.wp-container-core-group-is-layout-3.wp-container-core-group-is-layout-3 .alignfull {
+			max-width: none;
+		}
+
 		.wp-container-core-columns-is-layout-3.wp-container-core-columns-is-layout-3 {
 			flex-wrap: nowrap;
-			gap: 2em 0;
 		}
 
 		.wp-container-core-columns-is-layout-4.wp-container-core-columns-is-layout-4 {
 			flex-wrap: nowrap;
 		}
 
-		.wp-container-core-group-is-layout-4.wp-container-core-group-is-layout-4 {
+		.wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5 {
 			flex-wrap: nowrap;
 			justify-content: center;
 		}
@@ -3740,17 +4033,17 @@
 			flex-wrap: nowrap;
 		}
 
-		.wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
 			max-width: 1200px;
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
 
-		.wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5>.alignwide {
+		.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6>.alignwide {
 			max-width: 1200px;
 		}
 
-		.wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5 .alignfull {
+		.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6 .alignfull {
 			max-width: none;
 		}
 
@@ -3758,7 +4051,7 @@
 			flex-wrap: nowrap;
 		}
 
-		.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6 {
+		.wp-container-core-group-is-layout-7.wp-container-core-group-is-layout-7 {
 			flex-wrap: nowrap;
 			justify-content: center;
 		}
@@ -3771,7 +4064,7 @@
 			flex-wrap: nowrap;
 		}
 
-		.wp-container-core-group-is-layout-7.wp-container-core-group-is-layout-7 {
+		.wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8 {
 			justify-content: center;
 		}
 
@@ -3779,26 +4072,26 @@
 			flex-wrap: nowrap;
 		}
 
-		.wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		.wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
 			max-width: 520px;
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
 
-		.wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8>.alignwide {
+		.wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9>.alignwide {
 			max-width: 520px;
 		}
 
-		.wp-container-core-group-is-layout-8.wp-container-core-group-is-layout-8 .alignfull {
+		.wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9 .alignfull {
 			max-width: none;
 		}
 
-		.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2>* {
+		.wp-container-core-cover-is-layout-3.wp-container-core-cover-is-layout-3>* {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
 
-		.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2.wp-container-core-cover-is-layout-2>*+* {
+		.wp-container-core-cover-is-layout-3.wp-container-core-cover-is-layout-3.wp-container-core-cover-is-layout-3.wp-container-core-cover-is-layout-3>*+* {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
@@ -3812,7 +4105,8 @@
 	<script id="astra-theme-js-js-extra">
 		var astra = { "break_point": "921", "isRtl": "", "is_scroll_to_id": "1", "is_scroll_to_top": "1", "is_header_footer_builder_active": "1" };
 	</script>
-	<script src="https://jnic2024.github.io/wp-content/themes/astra/assets/js/minified/frontend.min.js"
+	<script
+		src="https://paquitoelchocolatero.github.io/jnic2025/wp-content/themes/astra/assets/js/minified/frontend.min.js"
 		id="astra-theme-js-js"></script>
 	<script>
 		/(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
